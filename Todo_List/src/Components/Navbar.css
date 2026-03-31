@@ -1,0 +1,43 @@
+.NavbarCls {
+    background-color: #282c34;
+    border : 1px solid grey;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.NavbarCls span {
+    display : flex;
+    flex-direction: row;
+}
+
+.span1 {
+    gap: 30px;
+}
+
+.span1 #title{
+    font-weight: bolder;
+}
+
+.span2 {
+    gap: 10px;
+}
+
+.span2 input, .span2 button{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.span2 input {
+    border: none;
+    background-color: (255, 255, 255, 0.836);
+}
+
+.span2 button{
+    background-color: green;
+    color: white;
+    border: none;
+    box-shadow: none;
+}

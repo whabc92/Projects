@@ -1,0 +1,17 @@
+.TodosStyle {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    min-height: 70vh;
+    padding: 15px 15%;
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+}
+
+.TodosStyle .Heading {
+    text-decoration: underline;
+}
+
+.TodosStyle .NoTodo {
+    color: rgba(255, 0, 0, 0.715);
+}

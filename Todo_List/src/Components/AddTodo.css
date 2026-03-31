@@ -1,0 +1,29 @@
+.container {
+    background-color: #282c3462;
+    padding: 15px;
+}
+
+.container, .container form{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container form input{
+    padding: 10px;
+    min-width: 50vw;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.836);
+    border: none;
+}
+
+
+.container form button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+}
